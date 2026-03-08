@@ -1,20 +1,69 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# The Humble Muse
 
-# Run and deploy your AI Studio app
+![The Humble Muse Preview](./public/reports/site%20image.png)
 
-This contains everything you need to run your app locally.
+A modern, minimal, and premium house of brands website built for **Hermit Cove LLP**. This project showcases a luxury aesthetic with a focus on authenticity, craftsmanship, and thoughtful design.
 
-View your app in AI Studio: https://ai.studio/apps/af3f1e07-a561-4148-aae9-8caf252222c0
+## ✨ Features
 
-## Run Locally
+- **Premium Design**: A clean, luxury-brand feel using a neutral color palette and elegant typography.
+- **Responsive Layout**: Fully optimized for mobile, tablet, and desktop devices.
+- **Dynamic PDF Viewer**: A custom system to preview and download PDF reports directly from the URL (e.g., `/report1.pdf`).
+- **Interactive UI**: Smooth animations and transitions powered by Framer Motion.
+- **Brand Showcase**: Dedicated sections for flagship brands like **HUMYN**.
+- **Contact System**: Integrated contact form and company location details.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- **Framework**: [React](https://reactjs.org/) (via [Vite](https://vitejs.dev/))
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Routing**: [React Router](https://reactrouter.com/)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📁 Project Structure
+
+- `src/components/`: Reusable UI components (Navbar, Footer, etc.)
+- `src/pages/`: Main page components (Home, About, Contact, etc.)
+- `src/pages/ReportViewer.tsx`: The dynamic PDF preview engine.
+- `public/reports/`: Directory for storing PDF report files.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/the-humble-muse.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### PDF Report System
+
+To add new reports:
+1. Place your PDF file in `public/reports/` (e.g., `my-report.pdf`).
+2. Access it via `yourdomain.com/my-report.pdf`.
+3. The system will automatically generate a preview page with a download option.
+
+## 📄 License
+
+This project is built for **Hermit Cove LLP**. All rights reserved.
+
+---
+
+Built with ❤️ by The Humble Muse Team.
