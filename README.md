@@ -1,6 +1,6 @@
 # The Humble Muse
 
-![The Humble Muse Preview](./public/reports/site%20image.png)
+![The Humble Muse Preview](public/site image.png)
 
 A modern, minimal, and premium house of brands website built for **Hermit Cove LLP**. This project showcases a luxury aesthetic with a focus on authenticity, craftsmanship, and thoughtful design.
 
