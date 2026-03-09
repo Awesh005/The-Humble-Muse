@@ -20,9 +20,9 @@ export default function FounderStory() {
           className="relative aspect-[16/9] overflow-hidden rounded-3xl mb-16"
         >
           <img 
-            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=2070" 
+            src="./user.png" 
             alt="Ranchi Forests" 
-            className="w-full h-full object-cover grayscale opacity-60"
+            className="w-full h-full object-contain grayscale opacity-60"
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-paper/40 to-transparent" />

@@ -9,9 +9,8 @@ export default function ReportViewer() {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
 
-  // The filename from URL (e.g., "report1.pdf")
-  // We look for it in the /pdf-assets/ directory to avoid route conflict
-  const reportUrl = `/pdf-assets/${filename}`;
+  // Keep viewer routes and static PDF URLs separate to avoid recursive page rendering.
+  const reportUrl = filename ? `/pdf-assets/${encodeURIComponent(filename)}` : '';
 
   useEffect(() => {
     // Set dynamic SEO title
@@ -30,7 +29,8 @@ export default function ReportViewer() {
 
       try {
         const response = await fetch(reportUrl, { method: 'HEAD' });
-        if (!response.ok) {
+        const contentType = response.headers.get('content-type')?.toLowerCase() ?? '';
+        if (!response.ok || !contentType.includes('pdf')) {
           setError(true);
         }
       } catch (err) {
@@ -66,7 +66,7 @@ export default function ReportViewer() {
           The requested report "{filename}" could not be located in our archives.
         </p>
         <div className="pt-8">
-          <Link to="/" className="inline-flex items-center space-x-2 text-xs uppercase tracking-widest font-semibold border-b border-ink pb-1">
+          <Link to="/test-reports" className="inline-flex items-center space-x-2 text-xs uppercase tracking-widest font-semibold border-b border-ink pb-1">
             <ArrowLeft size={14} />
             <span>Back to Home</span>
           </Link>
