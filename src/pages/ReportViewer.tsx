@@ -10,8 +10,8 @@ export default function ReportViewer() {
   const [loading, setLoading] = useState(true);
 
   // The filename from URL (e.g., "report1.pdf")
-  // We look for it in the /reports/ directory
-  const reportUrl = `/reports/${filename}`;
+  // We look for it in the /pdf-assets/ directory to avoid route conflict
+  const reportUrl = `/pdf-assets/${filename}`;
 
   useEffect(() => {
     // Set dynamic SEO title

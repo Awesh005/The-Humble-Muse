@@ -6,7 +6,7 @@ export default function Brands() {
       name: 'HUMYN',
       tagline: 'Authentic Materials. Modern Living.',
       description: 'HUMYN is our first brand built on the philosophy of authentic materials and craftsmanship. Products are made using pure copper and natural wood, rooted in traditional materials yet designed for modern living.',
-      image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1920',
+      image: 'https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&q=80&w=1920',
       status: 'Launched'
     }
   ];

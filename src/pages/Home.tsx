@@ -9,7 +9,7 @@ export default function Home() {
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=2070" 
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2070" 
             alt="Luxury Craftsmanship" 
             className="w-full h-full object-cover opacity-30 grayscale"
             referrerPolicy="no-referrer"
@@ -84,7 +84,7 @@ export default function Home() {
           >
             <div className="aspect-[4/5] overflow-hidden rounded-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=2070" 
+                src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&q=80&w=2070" 
                 alt="HUMYN Materials" 
                 className="w-full h-full object-cover grayscale"
                 referrerPolicy="no-referrer"

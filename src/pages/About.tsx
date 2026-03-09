@@ -46,7 +46,7 @@ export default function About() {
           <div className="sticky top-32 space-y-8">
             <div className="aspect-[3/4] overflow-hidden rounded-2xl grayscale opacity-80">
               <img 
-                src="https://images.unsplash.com/photo-1459156212016-c812468e2115?auto=format&fit=crop&q=80&w=1905" 
+                src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&q=80&w=1905" 
                 alt="Artisanal Craft" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

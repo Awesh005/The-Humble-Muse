@@ -33,7 +33,20 @@ export default function Footer() {
       </div>
       
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-paper/10 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest text-paper/40">
-        <p>&copy; {new Date().getFullYear()} Hermit Cove LLP. All rights reserved.</p>
+        <div className="space-y-4 text-center md:text-left">
+          <p>&copy; {new Date().getFullYear()} Hermit Cove LLP. All rights reserved.</p>
+          <p className="text-stone-600 text-[11px] normal-case tracking-normal">
+            Designed & Developed by{" "}
+            <a
+              href="https://bnintelhub.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-mustard font-semibold hover:text-white transition-colors"
+            >
+              BN Intelhub Pvt Ltd
+            </a>, STPI Ranchi
+          </p>
+        </div>
         <p>Stay tuned for more brands and products.</p>
       </div>
     </footer>

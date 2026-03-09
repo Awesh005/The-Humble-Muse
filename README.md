@@ -1,6 +1,6 @@
 # The Humble Muse
 
-![The Humble Muse Preview](./public/reports/site%20image.png)
+![The Humble Muse Preview](./public/test-reports/site%20image.png)
 
 A modern, minimal, and premium house of brands website built for **Hermit Cove LLP**. This project showcases a luxury aesthetic with a focus on authenticity, craftsmanship, and thoughtful design.
 
@@ -8,7 +8,7 @@ A modern, minimal, and premium house of brands website built for **Hermit Cove L
 
 - **Premium Design**: A clean, luxury-brand feel using a neutral color palette and elegant typography.
 - **Responsive Layout**: Fully optimized for mobile, tablet, and desktop devices.
-- **Dynamic PDF Viewer**: A custom system to preview and download PDF reports directly from the URL (e.g., `/report1.pdf`).
+- **Dynamic PDF Viewer**: A custom system to preview and download PDF reports directly from the URL (e.g., `/test-reports/report1.pdf`).
 - **Interactive UI**: Smooth animations and transitions powered by Framer Motion.
 - **Brand Showcase**: Dedicated sections for flagship brands like **HUMYN**.
 - **Contact System**: Integrated contact form and company location details.
@@ -27,7 +27,7 @@ A modern, minimal, and premium house of brands website built for **Hermit Cove L
 - `src/components/`: Reusable UI components (Navbar, Footer, etc.)
 - `src/pages/`: Main page components (Home, About, Contact, etc.)
 - `src/pages/ReportViewer.tsx`: The dynamic PDF preview engine.
-- `public/reports/`: Directory for storing PDF report files.
+- `public/pdf-assets/`: Directory for storing the actual PDF report files.
 
 ## 🚀 Getting Started
 
@@ -56,8 +56,8 @@ A modern, minimal, and premium house of brands website built for **Hermit Cove L
 ### PDF Report System
 
 To add new reports:
-1. Place your PDF file in `public/reports/` (e.g., `my-report.pdf`).
-2. Access it via `yourdomain.com/my-report.pdf`.
+1. Place your PDF file in `public/pdf-assets/` (e.g., `my-report.pdf`).
+2. Access it via `yourdomain.com/test-reports/my-report.pdf`.
 3. The system will automatically generate a preview page with a download option.
 
 ## 📄 License

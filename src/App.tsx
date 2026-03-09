@@ -9,6 +9,8 @@ import Brands from './pages/Brands';
 import Contact from './pages/Contact';
 import ReportViewer from './pages/ReportViewer';
 
+import ReportsIndex from './pages/ReportsIndex';
+
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -30,7 +32,8 @@ export default function App() {
             <Route path="/founder-story" element={<FounderStory />} />
             <Route path="/brands" element={<Brands />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/:filename" element={<ReportViewer />} />
+            <Route path="/test-reports" element={<ReportsIndex />} />
+            <Route path="/test-reports/:filename" element={<ReportViewer />} />
           </Routes>
         </main>
         <Footer />
